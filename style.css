@@ -36,12 +36,12 @@ table tr td:last-child {
 }
 
  .x {
- background: url(../tic_tac_toe/images/kisspng-snow-white-and-the-seven-dwarfs-disney-princess-ci-snow-white-5ac7739e3e9561.1731300015230207022564.png);
+ background: url(images/kisspng-snow-white-and-the-seven-dwarfs-disney-princess-ci-snow-white-5ac7739e3e9561.1731300015230207022564.png);
  background-size: contain;
  background-repeat: no-repeat;
 }
 .o {
-    background: url(../tic_tac_toe/images/kisspng-wicked-witch-of-the-west-glinda-the-wizard-wicked-wizard-of-oz-5ace3af3bb1cc2.5594060415234649477664.png);
+    background: url(images/kisspng-wicked-witch-of-the-west-glinda-the-wizard-wicked-wizard-of-oz-5ace3af3bb1cc2.5594060415234649477664.png);
     background-size: contain;
     background-repeat: no-repeat;
     
