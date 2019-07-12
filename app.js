@@ -1,6 +1,4 @@
 var origBoard;
-// var realPlayer ='0';
-// var oppoPlayer= 'x';
 var moveCounter = 0;
 var player = 'x'
 var cells = 0;
@@ -59,7 +57,7 @@ var checkForWin = function(winCombos){
         // debugger
         if ((d[combo[0]].classList.length > 1) && (d[combo[0]].classList[1] === d[combo[1]].classList[1]) && (d[combo[1]].classList[1] === d[combo[2]].classList[1])){
            // define what happens when winner 
-            console.log('winner')
+            // console.log('winner')
             d[combo[0]].classList.add('winner')
             d[combo[1]].classList.add('winner')
             d[combo[2]].classList.add('winner')
@@ -69,35 +67,25 @@ var checkForWin = function(winCombos){
     })
 
     if (!hasWon && moveCounter === 9) {
-        console.log('draw')
+        // console.log('draw')
         alert(finalResult.textContent = "DRAWGAME.. PLAY AGAIN")
     }
 }
-// var checkForDraw = function(trackTurns)  {
-//     trackTurns.forEach(function(trackTurn){
-//         // trackTurn.addEventListener("click",nextTurn)
-//     })
-// }
+
     
 var finalResult = document.querySelector(".result")
 
 var nextTurn = function(event) {
     turnClick();
     checkForWin(winCombos);
-    // checkForDraw(winCombos);
+    
 }
 
 var d = document.querySelectorAll(".cell");
 d.forEach(function(box){
     box.addEventListener("click",nextTurn)
 })
-// var trackTurns = function(){
 
-//     for  (var i = 0; i = 9; i++) {
-//         return [i]
-
-//     }
-// }
 
 
 

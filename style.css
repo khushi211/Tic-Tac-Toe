@@ -1,5 +1,5 @@
 td {
-    border: 2px solid blue;
+    border: 9px solid blue;
     height:200px;
     width:200px;
     text-align: center;
@@ -78,7 +78,7 @@ h1 {
     color: mediumturquoise;
     background-size: contain;
     text-align: center;
-    height: 80px;
+    height: 40px;
     width:400px;
     margin: 0 auto;
     border: 2px solid plum;
